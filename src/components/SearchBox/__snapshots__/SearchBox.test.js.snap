@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox component should render without crashing 1`] = `
+<div
+  className="pa2"
+>
+  <input
+    className="pa3 ba b--green bg-lightest-blue turquoise"
+    onChange={[Function]}
+    placeholder="Search GitHubPage"
+    type="search"
+  />
+  <button
+    className="pa3 ba b--green bg-lightest-blue turquoise"
+    onClick={[Function]}
+  >
+    Search
+  </button>
+</div>
+`;

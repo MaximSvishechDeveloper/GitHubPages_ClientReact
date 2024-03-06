@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render cardList 1`] = `
+<div>
+  <Card
+    id={1}
+    key="1f711b21-2b9b-4bc3-bbac-d2a999c9251f"
+  />
+</div>
+`;

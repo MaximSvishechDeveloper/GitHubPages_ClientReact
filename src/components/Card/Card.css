@@ -1,0 +1,26 @@
+.github-link {
+  font-size: 20px;
+  color: black;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#light .card {
+  background-color: #0ccac4;
+}
+
+#dark .card {
+  background-color: black;
+}
+
+#dark .dev-name {
+  color: white;
+}
+
+#dark .github-link {
+  color: white;
+  background-color: gray;
+}

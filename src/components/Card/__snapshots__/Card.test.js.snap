@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="card tc dib br3 pa3 ma2 grow bw2 shadow-5"
+>
+  <img
+    alt="profiles"
+    style={
+      Object {
+        "height": "400px",
+        "width": "400px",
+      }
+    }
+  />
+  <div>
+    <h2
+      className="dev-name"
+    />
+    <button
+      className="github-link"
+      onClick={[Function]}
+    >
+      GitHub Page
+    </button>
+  </div>
+</div>
+`;

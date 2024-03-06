@@ -34,11 +34,7 @@ const Protected = () => {
   useEffect(() => {
     setErr("");
     axios
-      .get(`https://api.github.com/users?since=${page}&per_page=12`, {
-        headers: {
-          Authorization: "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",
-        },
-      })
+      .get(`https://api.github.com/users?since=${page}&per_page=12`)
       .then((res) => {
         setProfiles((prev) => [...prev, ...res.data]);
       })
@@ -68,11 +64,7 @@ const Protected = () => {
         setSearchMode(false);
         setPage(1);
         axios
-          .get(`https://api.github.com/users?since=${page}&per_page=12`, {
-            headers: {
-              Authorization: "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",
-            },
-          })
+          .get(`https://api.github.com/users?since=${page}&per_page=12`)
           .then((res) => {
             setProfiles(res.data);
           })
@@ -82,11 +74,7 @@ const Protected = () => {
       } else {
         setSearchMode(true);
         axios
-          .get(`https://api.github.com/users/${name}`, {
-            headers: {
-              Authorization: "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",
-            },
-          })
+          .get(`https://api.github.com/users/${name}`)
           .then((res) => {
             const result = [];
             result.push(res.data);
